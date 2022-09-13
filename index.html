@@ -1,3 +1,5 @@
+<!DOCTYPE HTML>
+ <body>
 <ol>
     <li><a id="rul" href="http://example.com">Ссылка на гланую страницу</a></li>
     <li><a href="https://albinasivtsova15.github.io">Абсолютная ссылка на главную страницу сайта</a></li>
@@ -29,10 +31,87 @@
             <area shape = "circle" coords = "65,75,45" href = "https://ru.wikipedia.org/wiki/Круг" alt = "Красный круг" >
         </map>
     </li>
-<li><a href="indexot.html">Отн-ая ссылка на страницу в текущем каталоге</a></li>
-<li><a href="/about/indexot.html">Отно-ая ссылка в каталоге about</a></li>
-<li><a href="../indexot.html">Отн-ая ссылка на страницу в каталоге indexot.html уровнем выше текущего</a></li>
-
-
+<li><a href="work.html">Отн-ая ссылка на страницу в текущем каталоге</a></li>
+<li><a href="/about/work.html">Отно-ая ссылка в каталоге about</a></li>
+<li><a href="../work.html">Отн-ая ссылка на страницу в каталоге indexot.html уровнем выше текущего</a></li>
+<li><a href="../../work.html"> Двумя уровнями выше текущего</a></li>
+<li><a href="travelworld.com">Сокращенная ссылка на гланую страницу </a></li>
+<li><a href="travelworld.com">Сокращенная ссылка на гланую страницу </a></li>
+<li><a href="#pol">Сокращенная ссылка на внутреннюю </a></li>
 </ol>
+
+<br>
+<ol>
+    <li>
+        <form>
+        <p>
+            <label>ИМЯ:</label>
+            <input maxlength="10" size="10">
+        </p>
+        </form>
+    </li>
+    <li>
+        <form>
+            <p>
+                <label>EMAIL:</label> 
+                <input maxlength="100" size="30" type="EMAIL" name="LOGIN">
+            </p>
+        </form>
+    </li>
+    <li>
+        <form>
+            <p>
+                <label>ДАТА РОЖДЕНИЯ: </label>
+                <input type="date"/>
+            </p>
+        </form>
+    </li>
+    <li>
+        <form>
+                <label>ВАШ ПОЛ:</label>
+                <p><input name="pol" type="radio" checked> Мужской</p>
+                <p><input name="pol" type="radio"> Женский</p>
+        </form>
+    </li>
+    <li>
+        <form>
+                <label>КОЛ-ВО КОНЕЧНОСТЕЙ:</label>
+                <p><input name="konech" type="radio" checked> 4</p>
+                <p><input name="konech" type="radio"> 6</p>
+        </form>
+    </li>
+    <li>
+        <form>
+            <label>СУПЕРСПОСОБНОСТИ:</label>
+            <br>
+            <select name="supersila" multiple="multiple" size="4">
+                <option value="1">БЕССМЕРТИЕ</option>
+                <option value="2">ПРОХОЖДЕНИЕ СКВОЗЬ СТЕНЫ</option>
+                <option value="3">ЛЕВИТАЦИЯ</option>
+                <option value="4">ВЛАСТЬ НАД ЭЛЕКТРИЧЕСТВОМ</option>
+            </select>
+        </form>
+        <br>
+    </li>
+    <li>
+        <form>
+            <label>ПОЛЕ ДЛЯ БИОГРАФИИ:</label>
+            <p><textarea cols="35" rows="25" maxlength="525" name="BIO"></textarea></p>
+        </form>
+    </li>
+    <li>
+        <form>
+            <label>С КОНТРАКТОМ ОЗНАКОМЛЕН (А):</label>
+            <input type="checkbox">
+        </form>
+        <br>
+    </li>
+    <li>
+        <form>
+            <button>ОТПРАВИТЬ</button>
+        </form>
+    </li>
+</ol>
+</body>
+
 
