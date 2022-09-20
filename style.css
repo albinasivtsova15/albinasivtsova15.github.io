@@ -12,10 +12,12 @@
     margin: 0 auto;
 }
 #logo{
-    float:left; 
-    margin:100px; 
-    width:130px;
-    height:80px;
+   width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
 }
 #p{
     background-color:rgb(206, 234, 236); 
