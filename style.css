@@ -1,4 +1,5 @@
-#body {margin:0;
+#body {
+    margin:0;
 }
 #header{
 width:100%; background-color:lightblue;padding: 10px; height:120px;}
@@ -38,10 +39,21 @@ background-color:lightblue; padding:10px;
     width: 100px;
     font-family: 'Georgia', arial, serif;
 }
+.content{
+    max-width: 960px;
+    background-color: rgb(206, 234, 236);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+}
 #footer{
     width: 100%;
     background-color:lightblue;
     height: 70px;
     padding: 30px 0px 30px 0px;
     margin-top: 20px;
+}
+
+#sozd{
+    margin: 30px 0px 0px 60px;
 }
