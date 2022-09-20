@@ -1,48 +1,48 @@
-#body {
+ * body {
     margin:0;
 }
-#header{
+header{
     width:100%;
     background-color:rgb(206, 234, 236);
     padding: 10px 0px 10px 0px; 
     height:120px;}
 
-#logop{
+.logop{
     max-width: 960px;
     margin: 0 auto;
 }
-#logo{
+.logo{
     float:left; 
     margin:10px; 
     width:120px; height:100px;
 }
-#p{
+.p{
     background-color:rgb(206, 234, 236); 
     padding:10px;
     color: #1c8f85;
 }
-#nav{
+.nav{
     max-width: 960px;
     background-color:rgb(206, 234, 236);
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
 }
-#kon1{
+.kon1{
     margin-left: 0%;
     width: 120px;
     margin-right: 300px;
     font-family: 'Georgia', arial, serif;
 
 }
-#kon2{
+.kon2{
     margin-right: 300px;
     width="60%";
     cellspacing="0";
     bordercolor="brown";
      font-family: 'Georgia', arial, serif;
 }
-#kon3{
+.kon3{
     width: 100px;
     font-family: 'Georgia', arial, serif;
 }
@@ -53,7 +53,7 @@
     margin-top: 20px;
     padding: 10px;
 }
-#footer{
+.footer{
     width: 100%;
     background-color:rgb(206, 234, 236);
     height: 70px;
@@ -61,6 +61,4 @@
     margin-top: 20px;
 }
 
-#sozd{
-    margin: 30px 0px 0px 60px;
-}
+
