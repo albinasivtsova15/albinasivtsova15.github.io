@@ -2,40 +2,44 @@
     margin:0;
 }
 #header{
-width:100%; background-color:lightblue;padding: 10px; height:120px;}
+width:100%; background-color:rgb(206, 234, 236);
+padding: 10px; height:120px;}
 
 #logop{
 max-width: 960px;
     margin: 0 auto;
 }
 #logo{
-float:left; margin:10px; width:120px; height:100px;
+float:left; 
+margin:10px; 
+width:120px; height:100px;
 }
 #p{
-background-color:lightblue; padding:10px;
+background-color:rgb(206, 234, 236); 
+padding:10px;
 }
 #nav{
     max-width: 960px;
-    background-color:lightblue;
+    background-color:rgb(206, 234, 236);
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
 }
-#k1{
+#kon1{
     margin-left: 0%;
     width: 120px;
     margin-right: 300px;
     font-family: 'Georgia', arial, serif;
 
 }
-#k2{
+#kon2{
     margin-right: 300px;
     width="60%";
     cellspacing="0";
     bordercolor="brown";
      font-family: 'Georgia', arial, serif;
 }
-#k3{
+#kon3{
     width: 100px;
     font-family: 'Georgia', arial, serif;
 }
@@ -48,7 +52,7 @@ background-color:lightblue; padding:10px;
 }
 #footer{
     width: 100%;
-    background-color:lightblue;
+    background-color:rgb(206, 234, 236);
     height: 70px;
     padding: 30px 0px 30px 0px;
     margin-top: 20px;
