@@ -15,7 +15,7 @@
     float:left; 
     margin:10px; 
     width:130px;
-    height:100px;
+    height:80px;
 }
 #p{
     background-color:rgb(206, 234, 236); 
@@ -28,7 +28,6 @@
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
-    align-content: center;
 }
 #kon1{
     margin-left: 0%;
@@ -38,17 +37,15 @@
 
 }
 #kon2{
-    margin-right: 300px;
-    width=200px;
-    cellspacing="0";
-    bordercolor="brown";
+     margin-right: 300px;
+     width=200px;
      font-family: 'Georgia', arial, serif;
 }
 #kon3{
     width: 100px;
     font-family: 'Georgia', arial, serif;
 }
-#content{
+.content{
     max-width: 960px;
     background-color: rgb(206, 234, 236);
     margin: 0 auto;
