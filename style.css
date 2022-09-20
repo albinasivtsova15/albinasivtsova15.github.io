@@ -20,28 +20,35 @@
   margin-right: 10px;
 }
 #p{
-    background-color:rgb(206, 234, 236); 
-    padding:100px;
-    color: #1c8f85;
+    display: block;
+  width: 100%;
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
 }
 #nav{
-   max-width: 960px;
-    background-color: rgb(206, 234, 236);
-    margin: 0 auto;
-    margin-top: 20px;
-    padding: 10px;
+list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(21, 133, 79);
+  height: 35px;
+  align-content: center;
 }
 #kon1{
-    margin-left: 0%;
+   margin-left: 0%;
     width: 120px;
     margin-right: 300px;
     font-family: 'Georgia', arial, serif;
 
 }
 #kon2{
-     margin-right: 300px;
-     width=200px;
-     font-family: 'Georgia', arial, serif;
+     margin: 20px;
+  height: 200px;
+  width: 450px;
+  border: 1px solid rgb(0, 3, 49);
+  border-collapse: collapse;
 }
 #kon3{
     width: 100px;
