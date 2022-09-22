@@ -21,7 +21,9 @@ margin:0;
 }
 #p{
 background-color: lightblue;
-    padding: 10px;
     color:black;
-    margin-top: 10px;
+  display: block;
+  width: 100%;
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
