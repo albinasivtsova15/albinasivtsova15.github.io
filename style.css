@@ -58,9 +58,12 @@ background-color: lightblue;
     padding: 10px;
 }
 .foo{
+     position: fixed;
+    left: 0; bottom: 0;
+    padding: 10px;
+    background:lightgray;
+    color: black;
     width: 100%;
-    background-color: lightblue;
-    height: 50px;
 }
 .table-1{
   border-collapse: collapse;
