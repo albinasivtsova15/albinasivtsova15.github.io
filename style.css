@@ -57,7 +57,7 @@ background-color: lightblue;
     margin-top: 20px;
     padding: 10px;
 }
-#footer{
+.foo{
     width: 100%;
     background-color: lightblue;
     height: 50px;
