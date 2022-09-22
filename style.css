@@ -34,3 +34,20 @@ background-color: lightblue;
     margin-top: 25px;
     padding: 10px;
 }
+#kon1{
+    margin-left: 0%;
+    width: 100px;
+    margin-right: 200px;
+    font-family: 'Georgia', arial, serif
+
+}
+#kon2{
+    width: 100px;
+    margin-right: 200px;
+    font-family: 'Georgia', arial, serif;
+}
+#kon3{
+     width: 100px;
+    font-family: 'Georgia', arial, serif;
+}
+
