@@ -10,11 +10,11 @@ margin:0;
 
 #logop{
     max-width: 960px;
-    margin: 0 auto;
+    margin: auto;
 }
 #logo{
     float: left;
-    margin: 100px;
+    margin: 10px;
     width: 130px;
     height: 100px
 }
