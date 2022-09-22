@@ -28,7 +28,7 @@ background-color: lightblue;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 #nav{
-    max-width: 900px;
+    max-width: 960px;
     background-color: lightblue;
     margin: 0 auto;
     margin-top: 25px;
@@ -37,13 +37,13 @@ background-color: lightblue;
 #kon1{
     margin-left: 0%;
     width: 100px;
-    margin-right: 260px;
+    margin-right: 300px;
     font-family: 'Georgia',"Times New Roman", serif
 
 }
 #kon2{
     width: 100px;
-    margin-right: 260px;
+    margin-right: 300px;
     font-family: 'Georgia', "Times New Roman", serif;
 }
 #kon3{
@@ -51,7 +51,7 @@ background-color: lightblue;
     font-family: 'Georgia',"Times New Roman", serif;
 }
 .content{
-    max-width: 900px;
+    max-width: 960px;
     background-color: lightblue;
     margin: 0 auto;
     margin-top: 20px;
