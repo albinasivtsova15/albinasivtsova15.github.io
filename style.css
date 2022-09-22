@@ -58,7 +58,6 @@ background-color: lightblue;
     padding: 10px;
 }
 .foo{
-     position: fixed;
     left: 0; bottom: 0;
     padding: 10px;
     background:lightgray;
