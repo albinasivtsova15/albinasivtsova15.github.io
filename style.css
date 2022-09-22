@@ -63,7 +63,10 @@ background-color: lightblue;
     height: 50px;
 }
 .table-1{
-    border="3"
   border-collapse: collapse;
-    border: 1px solid purple;
+  border: 3px solid purple;
+}
+.z1{
+    text-alight: center;
+     border: 3px solid purple;
 }
