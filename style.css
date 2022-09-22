@@ -61,9 +61,9 @@ background-color: lightblue;
     width: 100%;
     background-color: lightblue;
     height: 50px;
-    margin-top: 20px;
 }
 .table-1{
+    border="3"
   border-collapse: collapse;
     border: 1px solid purple;
 }
