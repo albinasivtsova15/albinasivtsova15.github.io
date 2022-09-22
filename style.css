@@ -27,3 +27,10 @@ background-color: lightblue;
   font-size: 28px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+#nav{
+    max-width: 960px;
+    background-color: lightblue;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 10px;
+}
