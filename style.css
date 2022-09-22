@@ -38,17 +38,17 @@ background-color: lightblue;
     margin-left: 0%;
     width: 100px;
     margin-right: 260px;
-    font-family: 'Georgia', arial, serif
+    font-family: 'Georgia',"Times New Roman", serif
 
 }
 #kon2{
     width: 100px;
     margin-right: 260px;
-    font-family: 'Georgia', arial, serif;
+    font-family: 'Georgia', "Times New Roman", serif;
 }
 #kon3{
      width: 100px;
-    font-family: 'Georgia', arial, serif;
+    font-family: 'Georgia',"Times New Roman", serif;
 }
 .content{
     max-width: 900px;
