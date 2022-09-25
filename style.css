@@ -75,8 +75,9 @@ background-color: lightblue;
     text-alight: center;
      border: 3px solid purple;
 }
-.foo{
+footer{
 width: 100%;
+float:left;
 height: 30px;
 background-color: gray;
 }
