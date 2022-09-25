@@ -75,9 +75,15 @@ background-color: lightblue;
     text-alight: center;
      border: 3px solid purple;
 }
-footer{
-width: 100%;
-float:left;
-height: 30px;
-background-color: gray;
+#footer{
+    width: 100%;
+    background-color: gray;
+    height: 70px;
+    padding: 30px 0px 30px 0px;
+    margin-top: 20px;
 }
+
+#sozd{
+    margin: 30px 0px 0px 60px;
+}
+
