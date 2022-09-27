@@ -54,7 +54,7 @@ background-color: lightblue;
     max-width: 960px;
     background-color: lightblue;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
 }
 
@@ -79,10 +79,10 @@ background-color: lightblue;
     background-color: gray;
     height: 30px;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 #sozd{
-    margin: 30px 0px 0px 60px;
+    margin: 30px;
 }
 
