@@ -15,7 +15,7 @@ margin:0;
   width: 100px;
   height: 100px;
   float: left;
-  margin-left:140px;
+  margin-left:240px;
   margin-top: 5px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -55,7 +55,6 @@ background-color: lightblue;
     max-width: 960px;
     background-color: lightblue;
     margin: 0 auto;
-    margin-left:110px;
     margin-top: 10px;
     padding: 10px;
 }
