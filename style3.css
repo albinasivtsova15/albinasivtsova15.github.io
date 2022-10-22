@@ -1,9 +1,13 @@
-body{
-max-width:400px;
-background-color: brown;
+.content {
+max-width:600px;
 text-align: center;
-height: 400px;
-margin: 0 auto;}
-#main{
-background-color: red;
+background-color: lightbrown;
+margin: 0 auto;
+height: 300px;
+
+}
+#result {
+margin: 0 auto;
+font-size: 40px;
+
 }
