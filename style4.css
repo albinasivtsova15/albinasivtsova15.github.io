@@ -3,10 +3,18 @@ max-width:600px;
 text-align: center;
 height: 300px;
 margin: 0 auto;}
-#kontent1{
-background-color:	lightblue;
+.kontent1 {
+max-width:600px;
+text-align: center;
+background-color: lightblue;
+margin: 0 auto;
+height: 300px;
+
 }
-#calc2{
-background-color:	lightblue;
+#result {
+margin: 0 auto;
+font-size: 40px;
+color:red;
 }
+
 
