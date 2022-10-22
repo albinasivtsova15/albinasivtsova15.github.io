@@ -1,0 +1,29 @@
+.kontent2 {
+margin: 0 auto;
+width: 400px;
+height: 150px;
+background-color: lightblue;
+}
+#calc2{
+text-align: center;
+padding-top: 15px;
+}
+
+#select {
+margin-top: 10px;
+}
+.content1 {
+max-width:600px;
+background-color: rgba(52, 222, 235);
+text-align: center;
+height: 300px;
+margin: 0 auto;
+}
+#result1, #result {
+font-size: 35px;
+font-weight: bold;
+margin: 0 auto;
+}
+body {
+margin: 100px;
+}
