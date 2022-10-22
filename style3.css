@@ -1,7 +1,7 @@
 .content {
 max-width:600px;
 text-align: center;
-background-color: blue;
+background-color: lightblue;
 margin: 0 auto;
 height: 300px;
 
@@ -9,5 +9,5 @@ height: 300px;
 #result {
 margin: 0 auto;
 font-size: 40px;
-
+color:red;
 }
