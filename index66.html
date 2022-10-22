@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"  href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>< Задание 5></title>
+     <script src="java1.js"></script>
+	</head>
+<body>
+	<div class="kontent1">
+		<h1>Калькулятор:</h1>
+		<p>Кол-во товара:</p>
+		<input type="text" id="kol"><br>
+		<p> Цена 1 товара:</p>
+		<input id="price" type="text">
+		<button id="btn">Считай</button>
+		<p>Итого: </p>
+                <div id="result"></div>
+  </div></br>
+   <div class="kontent2">
+        <form id="calc2">
+     <label>Кол-во товара:<input id="kol"></label><br>
+    <select name="prodType" id="select">
+      <option value="1">Type one</option>
+      <option value="2">Type two</option>
+      <option value="3">Type three</option>
+      <option value="4">Type four </option>
+    </select>
+    <div id="radios" style="display: none;">
+      <label><input type="radio" name="prodOptions" value="option1"> Option one </label>
+      <label><input type="radio" name="prodOptions" value="option2"> Оption two</label>
+      <label><input type="radio" name="prodOptions" value="option3"> Option three</label>
+    </div>
+    <div id="checkboxes" style="display: block;">
+      <label><input type="checkbox" name="prop1"> New  prodact</label>
+    </div>
+    <br><p>Итого: </p>
+    <div id="result">
+    </div>
+  </form>
+    </div>
+</body>
+</html>
