@@ -1,32 +1,12 @@
-body {
-margin: 100px;
-}
-.kontent2 {
-margin: 0 auto;
-width: 400px;
-height: 150px;
-background-color: lightblue;
-}
-.kontent1 {
-max-width:400px;
-background-color: lightblue;
+body{
+max-width:600px;
 text-align: center;
-height: 250px;
-margin: 0 auto;
+height: 300px;
+margin: 0 auto;}
+#kontent1{
+background-color:	lightblue;
 }
 #calc2{
-text-align: center;
-padding-top: 15px;
-}
-
-#select {
-margin-top: 10px;
-}
-
-#result1, #result2 {
-font-size: 30px;
-font-weight: bold;
-margin: 0 auto;
-color:red;
+background-color:	lightblue;
 }
 
