@@ -14,7 +14,7 @@ body{
     img{
         margin: 0 auto;
         padding: 0 auto;
-        height: calc(35vw*0.7);
+        height: calc(40vw*0.7);
         width: 35vw;
         max-width: 170px;
         max-height: 100px;
@@ -32,7 +32,7 @@ body{
     img{
         margin: 0 auto;
         padding: 0 auto;
-        height: calc(15vw*0.7);
+        height: calc(30vw*0.7);
         width: 15vw;
         max-width: 150px;
         max-height: 105px;
