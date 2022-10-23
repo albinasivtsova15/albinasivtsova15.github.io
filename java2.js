@@ -2,7 +2,6 @@ var document;
 var window;
 var alert;
 var console;
-
 function updatePrice() {
     var kol = document.getElementById("kol").value;
     var s = document.getElementsByName("prodType");
@@ -83,7 +82,6 @@ window.addEventListener("DOMContentLoaded", function () {
     var kol;
     radioDiv.style.display = "none";
 
-
     s = document.getElementsByName("prodType");
     select = s[0];
 
@@ -115,9 +113,6 @@ window.addEventListener("DOMContentLoaded", function () {
     updatePrice();
 });
 
-
-
-
 function onClick() {
     var r;
     var f1;
@@ -133,7 +128,6 @@ function onClick() {
     r.innerHTML = f1 * f2;
 
 }
-
 document.addEventListener("DOMContentLoaded", function (event) {
     var b = document.getElementById("btn");
     console.log(event.type + " на " + event.currentTarget);
