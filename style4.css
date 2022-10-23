@@ -1,8 +1,10 @@
 .kontent2 {
+border: 3px solide black;
+padding: 5px;
 margin: 0 auto;
 width: 400px;
 height: 180px;
-background-color: lightblue;
+background-color:MediumSlateBlue ;
 }
 #calc2{
 text-align: center;
@@ -13,17 +15,20 @@ padding-top: 16px;
 margin-top: 10px;
 }
 .kontent1 {
-max-width:450px;
-background-color: lightblue;
+border: 3px solide black;
+padding: 5px;
+max-width:600px;
+background-color: MediumSlateBlue;
 text-align: center;
 height: 250px;
 margin: 0 auto;
-margin-bottom: 50px;
+margin-bottom: 70px;
 }
 #result2, #result1 {
 font-size: 35px;
 font-weight: bold;
 margin: 0 auto;
+color: red;
 }
 body {
 margin: 150px;
