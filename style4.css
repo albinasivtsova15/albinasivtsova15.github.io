@@ -22,7 +22,7 @@ background-color: MediumSeaGreen;
 text-align: center;
 height: 350px;
 margin: 0 auto;
-margin-bottom: 70px;
+margin-bottom: 35px;
 }
 #result2, #result1 {
 font-size: 35px;
@@ -33,5 +33,12 @@ color: red;
 body {
 margin: 90px;
 }
-
+h1{
+  font-family: Impact;
+  font-weight: 800;
+}
+p{
+  font-family:Andale Mono;
+   font-weight:500;
+}
 
