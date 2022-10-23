@@ -1,22 +1,22 @@
 .kontent2 {
 margin: 0 auto;
-width: 500px;
-height: 200px;
+width: 300px;
+height: 180px;
 background-color: lightblue;
 }
 #calc2{
 text-align: center;
-padding-top: 15px;
+padding-top: 20px;
 }
 
 #select {
 margin-top: 10px;
 }
 .kontent1 {
-max-width:600px;
+max-width:400px;
 background-color: lightblue;
 text-align: center;
-height: 300px;
+height: 200px;
 margin: 0 auto;
 }
 #result2, #result1 {
