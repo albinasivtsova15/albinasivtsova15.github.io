@@ -52,7 +52,7 @@ function updatePrice() {
         }
     });
 
-    prodPrice = document.getElementById("result");
+    prodPrice = document.getElementById("result2");
     prodPrice.innerHTML = (price * kol) + " рублей";
     if (/\D/.test(kol)) {
         prodPrice.innerHTML = "Неверные данные";
