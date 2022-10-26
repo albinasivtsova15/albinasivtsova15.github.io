@@ -12,6 +12,7 @@ background-color: LightSteelBlue ;
         top: 20vh;
         height: 20vh;
         width: 80vw;
+        bottom: 20vh;
     }
     
     img{
@@ -28,6 +29,7 @@ background-color: LightSteelBlue ;
     .Images{
         text-align: center;
         top: 20vh;
+        bottom: 20 vh;
         height: 100px;
         width: 80vw;
         max-width: 960px;
@@ -40,5 +42,6 @@ background-color: LightSteelBlue ;
         width: 15vw;
         max-width: 150px;
         max-height: 150px;
+     
     }
 }
