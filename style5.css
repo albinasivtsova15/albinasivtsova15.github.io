@@ -32,42 +32,6 @@ body{
     }
   
   .slick-prev{
-    left: -25px !important;
+    left: -15px !important;
   }
-}
-#slider{
-    width: 500px;
-    height: 150px;
-    background: blue;
-    position: relative;
-    overflow: hidden;
-}
-
-.arrow{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 46%;
-    background: #fff;
-    opacity: 0;
-
-    transition: 0.3s ease;
-}
-
-.left{
-    left: -20px;
- }
-
-.right{
-    right: -20px;
-}
-
-#slider:hover .left{
-    left: 20px;
-    opacity: 1;
-}
-
-#slider:hover .right{
-    right: 20px;
-    opacity: 1;
 }
