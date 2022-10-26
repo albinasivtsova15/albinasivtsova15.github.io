@@ -1,4 +1,6 @@
-
+body{
+   background: lightblue;
+}
 .Images div img{
   wigth:100px;
   height:100px;
