@@ -1,6 +1,4 @@
 body{
-border: 2px solid black;
-padding: 5px;
 background-color: LightSteelBlue ;
   display:flex;
   justify-content:center;
@@ -8,6 +6,8 @@ background-color: LightSteelBlue ;
 
 @media (max-width:560px) {
     .Images{
+      border: 2px solid black;
+        padding: 5px;
         text-align: center;
         top: 20vh;
         height: 20vh;
