@@ -18,7 +18,7 @@ background-color: LightSteelBlue ;
         height: calc(35vw*0.7);
         width: 35vw;
         max-width: 170px;
-        max-height: 100px;
+        max-height: 170px;
     }
 }
 
@@ -37,6 +37,6 @@ background-color: LightSteelBlue ;
         height: calc(15vw*0.7);
         width: 15vw;
         max-width: 150px;
-        max-height: 105px;
+        max-height: 150px;
     }
 }
