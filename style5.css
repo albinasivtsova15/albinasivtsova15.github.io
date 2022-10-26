@@ -17,21 +17,21 @@ body{
   position: relative;
   }
   .slick-next{
-    rigth:10px !important;
+    rigth:20px !important;
 }
  .slick-prev{
-    rigth:10px !important;
+    rigth:15px !important;
 }
  .slick-dots{
     position: relative !important;
 }
 @media (min-width:560px){
   .Images div img{
-     width: 175px;
-      height: 175px;
+     width: 100px;
+      height: 100px;
     }
   
   .slick-prev{
-    left: -10px !important;
+    left: -20px !important;
   }
 }
