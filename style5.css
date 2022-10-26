@@ -1,9 +1,9 @@
 body{
    background: lightblue;
 }
+
 .Images div img{
   wigth:100px;
-  height:100px;
 }
 .Images{
   max-wigth:260px;
@@ -17,7 +17,7 @@ body{
   position: relative;
   }
   .slick-next{
-    rigth:20px !important;
+    rigth:25px !important;
 }
  .slick-prev{
     rigth:15px !important;
@@ -27,11 +27,10 @@ body{
 }
 @media (min-width:560px){
   .Images div img{
-     width: 100px;
-      height: 100px;
+     width: 150px;
+      height: 175px;
     }
-  
   .slick-prev{
-    left: -20px !important;
+    left: -25px !important;
   }
 }
