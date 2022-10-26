@@ -1,4 +1,6 @@
 body{
+border: 2px solid black;
+padding: 15px;
 background-color: LightSteelBlue ;
   display:flex;
   justify-content:center;
