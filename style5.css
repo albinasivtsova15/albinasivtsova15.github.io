@@ -5,7 +5,7 @@ body{
 }
 
 @media (max-width:560px) {
-    .slider{
+    .Images{
         text-align: center;
         top: 10vh;
         height: 20vh;
@@ -23,7 +23,7 @@ body{
 }
 
 @media (min-width:560px) {
-    .slider{
+    .Images{
         text-align: center;
         top: 10vh;
         height: 100px;
