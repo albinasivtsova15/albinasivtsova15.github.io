@@ -1,11 +1,11 @@
 jQuery(function ($) {
     $(document).ready(function () {
-        $(".slider").slick({
+        $(".Images").slick({
             arrows: true,
             dots: true,
             responsive: [
                 {
-                    breakpoint: 560,
+                    breakpoint: 900,
                     settings: {
                         arrows: true,
                         dots: true,
