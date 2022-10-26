@@ -1,21 +1,23 @@
-jQuery(function ($) {
-    $(document).ready(function () {
-        $(".Images").slick({
-            arrows: true,
-            dots: true,
-            responsive: [
-                {
-                    breakpoint: 900,
-                    settings: {
-                        arrows: true,
-                        dots: true,
-                        slidesToScroll: 1,
-                        slidesToShow: 2
-                    }
-                }
-            ],
-            slidesToScroll: 1,
-            slidesToShow: 4
-        });
-    });
+$(document).ready(function() {
+  $(".Images").slick({
+    slidesToShow:4,
+     slidesToScrol:1,
+    dots: true,
+    responsive:[
+      {
+        breakpoint: 1024,
+        settings:{
+          slidesToShow:3,
+     slidesToScrol:1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings:{
+          slidesToShow:2,
+     slidesToScrol:1,
+        },
+      },
+      ],
+  });
 });
