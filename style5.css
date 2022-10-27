@@ -7,9 +7,9 @@ background-color: LightSteelBlue ;
 @media (max-width:560px) {
     .Images{
         text-align: center;
-        top: 20vh;
+        top: 10vh;
         height: 20vh;
-        width: 80vw;
+        width: 45vw;
         
     }
     
@@ -18,16 +18,16 @@ background-color: LightSteelBlue ;
         padding: 0 auto;
         height: calc(35vw*0.7);
         width: 35vw;
-        max-width: 170px;
-        max-height: 170px;
+        max-width: 150px;
+        max-height: 150px;
     }
 }
 
 @media (min-width:560px) {
     .Images{
         text-align: center;
-        top: 20vh;
-        height: 20px;
+        top: 10vh;
+        height: auto;
         width: 80vw;
         max-width: 960px;
     }
