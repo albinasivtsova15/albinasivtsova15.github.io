@@ -1,23 +1,3 @@
-
-function onClick(){
-var kol1=document.getElementById("kol1").value;
-var price=document.getElementById("price").value;
-var result2=document.getElementById("result2");
-var x;
-var y;
- result.innerHTML = "";
-x = kol1;
-y = price;
-if (x>0 && x!=NaN && y>0 && y!=NaN)
-result1.innerHTML=x*y;       
-}
-window.document.addEventListener("DOMContentLoaded", function (event) {
-    console.log("DOM fully loaded and parsed");
-    var y = document.getElementById("btn");
-    y.addEventListener("click", onClick);
-});
-
-
 var document;
 var window;
 var alert;
@@ -27,7 +7,7 @@ function updatePrice() {
     var kol = document.getElementById("kol").value;
     var s = document.getElementsByName("prodType");
     var select = s[0];
-    var price;
+    var price ;
     var optionPrice;
     var checkDiv;
     var propPrice;
@@ -84,12 +64,12 @@ function getPrices() {
     return {
         prodOptions: {
             option2: 10,
-            option3: 20
+            option3: 5
         },
         prodProperties: {
-            prop1: 5
+            prop1: 1
         },
-        prodTypes: [100, 200, 300]
+        prodTypes: [100, 200, 150]
     };
 }
 
@@ -133,4 +113,30 @@ window.addEventListener("DOMContentLoaded", function () {
     };
 
     updatePrice();
+});
+
+
+
+
+function onClick() {
+    var r;
+    var f1;
+    var f2;
+    r = document.getElementById("result1");
+    r.innerHTML = "";
+    f1 = document.getElementById("kol1").value;
+    f2 = document.getElementById("price").value;
+    if ((/\D/.test(f1)) || (/\D/.test(f2))) {
+        alert("!!!Допускаются только цифры: 0-9!!!");
+        return;
+    }
+    r.innerHTML = f1 * f2;
+
+}
+
+document.addEventListener("DOMContentLoaded", function (event) {
+    var b = document.getElementById("btn");
+    console.log(event.type + " на " + event.currentTarget);
+    b.addEventListener("click", onClick);
+
 });
