@@ -64,10 +64,10 @@ function getPrices() {
     return {
         prodOptions: {
             option2: 10,
-            option3: 5
+            option3: 7
         },
         prodProperties: {
-            prop1: 1
+            prop1: 2
         },
         prodTypes: [100, 200, 150]
     };
