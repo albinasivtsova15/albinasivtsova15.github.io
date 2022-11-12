@@ -8,7 +8,7 @@ function onClick() {
     var f2;
     r = document.getElementById("result");
     r.innerHTML = "";
-    f1 = document.getElementById("kol").value;
+    f1 = document.getElementById("kolvo").value;
     f2 = document.getElementById("price").value;
     if ((/\D/.test(f1)) || (/\D/.test(f2))) {
         alert("!!!Допускаются только цифры: 0-9!!!");
