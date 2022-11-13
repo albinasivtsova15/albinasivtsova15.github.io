@@ -1,3 +1,26 @@
+function onClick() {
+    var a;
+    var l1;
+    var l2;
+    a = document.getElementById("result1");
+    a.innerHTML = "";
+    l1 = document.getElementById("kol1").value;
+    l2 = document.getElementById("price").value;
+    if ((/\D/.test(l1)) || (/\D/.test(l2))) {
+        alert("!!!Допускаются только цифры: 0-9!!!");
+        return;
+    }
+    a.innerHTML = l1 * l2;
+
+}
+
+document.addEventListener("DOMContentLoaded", function (event) {
+    var b = document.getElementById("btn");
+    console.log(event.type + " на " + event.currentTarget);
+    b.addEventListener("click", onClick);
+
+});
+
 var document;
 var window;
 var alert;
@@ -118,25 +141,3 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 
-function onClick() {
-    var r;
-    var f1;
-    var f2;
-    r = document.getElementById("result1");
-    r.innerHTML = "";
-    f1 = document.getElementById("kol1").value;
-    f2 = document.getElementById("price").value;
-    if ((/\D/.test(f1)) || (/\D/.test(f2))) {
-        alert("!!!Допускаются только цифры: 0-9!!!");
-        return;
-    }
-    r.innerHTML = f1 * f2;
-
-}
-
-document.addEventListener("DOMContentLoaded", function (event) {
-    var b = document.getElementById("btn");
-    console.log(event.type + " на " + event.currentTarget);
-    b.addEventListener("click", onClick);
-
-});
