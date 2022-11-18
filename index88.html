@@ -1,0 +1,32 @@
+<html lang="ru">
+  <head>
+    <title>Задание 8е</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <script src="https://java4.js" defer></script>
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Yk6CAYNENVqSF9GoA_UrCOV_B59G-FybXL3UbOnDfS97qLC-YwESyVU58S0Pa5diQyHcByiBIHEAB5rg6_41aMZ1kOtMJpzVmpB3Xgp2sgI" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slapform@latest/dist/index.min.js"></script>
+  </head>
+  <body>
+	<button class="pushButton">Форма обратной связи</button>
+    <form id="Form" method="post" action="https://api.slapform.com/aXHxW8DxN">
+		<h3>Форма для заполнения</h3>
+		<div id="Info">
+         <div class="field">
+				    Имя: <input type="text" id="name" maxlength="30" size="30" placeholder="Ваше имя"></div>
+         <div class="field">
+				    Email: <input id="email_polz" type="email" maxlength="240" size="45" placeholder="Электронная почта"></div>
+         <div class="field">
+				    Текст сообщения:
+			      <br><textarea name="Mes" id="mes" cols="40" rows="5" maxlength="150" placeholder="Сообщение..."></textarea></div>
+	       <div class="field">
+				    Принимаю условия пользовательского соглашения:<input id="check" type="checkbox"></div>
+         <div id="GoOver">
+				<button type="submit" id="back" onclick="return openHome()">Назад</button>
+				<button type="submit" id="send" disabled>Отправить</button></div>
+		</div>
+	</form>
+    <div id="myOverlay"></div>
+  </body>
+</html>
