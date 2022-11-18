@@ -92,7 +92,7 @@ textarea{
 
 #myOverlay {
     position: fixed;
-    background: LightGrey;
+    background: LightYellow;
     width: 400px; height: 500px;
     cursor: pointer;
     display: none;
