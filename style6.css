@@ -8,7 +8,7 @@ body{
 
 .pushButton{
 	margin-top:40vh;
-	height: 10vh;
+	height: 7vh;
 	width: 25vw;
 	max-width: 200px;
 	min-width: 100px;
@@ -16,6 +16,7 @@ body{
 	background-color: brown;
 	border-radius: 200px;
 	font-family:sans-serif;
+	
 }
 
 textarea{
@@ -72,7 +73,7 @@ textarea{
 	}
 
 	#email_p{
-		max-width: 35vw;
+		max-width: 30vw;
 	}
 
 	#mes{
@@ -93,7 +94,7 @@ textarea{
 #myOverlay {
     position: fixed;
     background: DarkSalmon;
-    width: 105%; height: 100%;
+    width: 100%; height: 100%;
     cursor: pointer;
     display: none;
    z-index: 0;
