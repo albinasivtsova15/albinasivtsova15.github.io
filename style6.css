@@ -3,7 +3,7 @@ body{
 	padding: 0;
 	display: flex;
 	justify-content: center;
-	background-color: DarkSalmon;
+	background-color: LightYellow;
 }
 
 .pushButton{
@@ -13,7 +13,7 @@ body{
 	max-width: 200px;
 	min-width: 100px;
 	font-size: 15px;
-	background-color: brown;
+	background-color: DarkKhaki;
 	border-radius: 200px;
 	
 }
@@ -35,7 +35,7 @@ textarea{
 		height: 50vh;
 		min-height: 400px;
 		padding: 18px 9px;
-		background-color:brown ;
+		background-color:DarkKhaki;
 		position: fixed;
 		top: 0; left: 0; right: 0; bottom: 0;
 		margin: auto;
@@ -60,7 +60,7 @@ textarea{
 		max-height: 400px;
 		border-radius: 30px;
 		padding: 5px 9px;
-		background-color:brown;
+		background-color:DarkKhaki;
 		position: fixed;
 		top: 0; left: 0; right: 0; bottom: 0;
 		margin: auto;
@@ -92,7 +92,7 @@ textarea{
 
 #myOverlay {
     position: fixed;
-    background: DarkSalmon;
+    background: LightGrey;
     width: 400px; height: 500px;
     cursor: pointer;
     display: none;
