@@ -85,7 +85,7 @@ $(document).ready(function () {
         } else {
             localStorage.setItem("check", false);
         }
-        if (name.length > 0 && email.length > 0 && mes.length > 0 && check) {
+        if (nam.length > 0 && email.length > 0 && mes.length > 0 && check) {
             $("#send").prop("disabled", false);
         } else {
             $("#send").prop("disabled", true);
