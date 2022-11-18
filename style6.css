@@ -24,7 +24,7 @@ textarea{
 
 #GoOver{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	margin-top: 5vh;
 }
 
@@ -72,7 +72,7 @@ textarea{
 	}
 
 	#email_p{
-		max-width: 20vw;
+		max-width: 40vw;
 	}
 
 	#mes{
