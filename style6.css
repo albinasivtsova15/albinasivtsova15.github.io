@@ -3,18 +3,18 @@ body{
 	padding: 0;
 	display: flex;
 	justify-content: center;
-	background-color: rgb(216, 191, 216);
+	background-color: Thistle;
 }
 
 .pushButton{
-	margin-top:20vh;
-	height: 5vh;
-	width: 20vw;
+	margin-top:50vh;
+	height: 10vh;
+	width: 25vw;
 	max-width: 200px;
 	min-width: 100px;
-	font-size: 16px;
-	background-color: rgb(238, 130, 238);
-	border-radius: 25% 25%;
+	font-size: 15px;
+	background-color: Lavender;
+	border-radius: 200px;
 }
 
 textarea{
