@@ -115,6 +115,6 @@ else{
     $name = $email = $year = $gender = $kol  = $biography = $ok = "";
     $superpowers=array();
   }
-  include('form.php');
+  include('form.html');
 }
 ?>
