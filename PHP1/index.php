@@ -12,7 +12,7 @@ function test_input($data) {
 $error=[];
 
 if($_SERVER["REQUEST_METHOD"] == "GET"){
-    include('form.php');
+    include('form.html');
     exit();
 }
 else{
