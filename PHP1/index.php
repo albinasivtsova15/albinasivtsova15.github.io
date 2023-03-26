@@ -12,7 +12,7 @@ function test_input($data) {
 $error=[];
 
 if($_SERVER["REQUEST_METHOD"] == "GET"){
-    include('form.html');
+    include('form.php');
     exit();
 }
 else{
@@ -115,6 +115,6 @@ else{
     $name = $email = $year = $gender = $kol  = $biography = $ok = "";
     $superpowers=array();
   }
-  include('form.html');
+  include('form.php');
 }
 ?>
